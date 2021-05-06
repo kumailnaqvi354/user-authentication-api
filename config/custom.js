@@ -23,5 +23,6 @@ module.exports.custom = {
   // sendgridSecret: "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",
   // stripeSecret: 'sk_test_Zzd814nldl91104qor5911gjald',
   // …
+  sendGridAPIkey:"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"
 
 };

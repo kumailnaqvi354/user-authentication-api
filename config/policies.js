@@ -10,7 +10,9 @@
 
 module.exports.policies = {
 
-  "user/login": 'can-login'
+  "user/login": 'can-login',
+  'user/forgot-password': 'can-login'
+
 
 
   /***************************************************************************

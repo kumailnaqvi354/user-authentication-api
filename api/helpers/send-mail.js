@@ -18,8 +18,8 @@ module.exports = {
   fn: async function (inputs) {
     const transporter = nodemailer.createTransport(
       nodemailerSendgrid({
-        apiKey: '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',
-        // apiKey: sails.config.sendGridAPIkey || process.env.SENDGRID_API_KEY,
+        // apiKey: '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',
+        apiKey: sails.config.sendGridAPIkey || process.env.SENDGRID_API_KEY,
       })
     );
     transporter.use(
